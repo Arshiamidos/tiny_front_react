@@ -1,0 +1,48 @@
+@import "editable-cell";
+
+.admin {
+  .tag-list {
+    .ant-table {
+      tr.ant-table-expanded-row {
+        td:last-of-type {
+          color: #888;
+          line-height: 2;
+          font-size: 13px;
+          text-align: justify;
+          padding-left: 64px;
+        }
+      }
+    }
+  }
+  .ant-form.mini-form {
+    margin-bottom: 20px;
+    .form-item-wrapper {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 -5px;
+      .ant-row.ant-form-item {
+        flex: 2;
+        margin-bottom: 10px;
+        padding: 0 5px;
+        &:last-of-type {
+          flex: 1;
+        }
+        .ant-form-item-control-wrapper {
+          float: none;
+          width: 100%;
+        }
+        button {
+          width: 100%;
+        }
+      }
+    }
+
+    @media all and (max-width: 600px) {
+      .form-item-wrapper {
+        flex-direction: column;
+        .ant-row.ant-form-item {
+        }
+      }
+    }
+  }
+}

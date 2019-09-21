@@ -1,0 +1,23 @@
+@import "general";
+@import "theme";
+@import "media";
+
+.ant-form-item-control-wrapper{
+  display: flex;
+  width:100% !important;
+  justify-content: center;
+  align-items: center;
+}
+.anticon .anticon-cross{
+  color:'red';
+  font-size: 10px;
+  
+}
+.ant-form-item-control{
+  width: 100%;
+}
+
+
+.App {
+  .main-container {}
+}

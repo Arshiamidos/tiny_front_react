@@ -1,0 +1,81 @@
+module.exports = {
+
+    // ROUTES:
+    //BASE_URL: "https://127.0.0.1:1414",
+    BASE_URL: "https://solabest.ddns.net:1414",
+    get SERVER_SOCKET () { return this.BASE_URL},
+    REGISTER_PATH: "/api/register",
+    REGISTER_PHONE_PATH: "/api/register/phone",
+    LOGIN_PATH: "/api/login",
+    CHANGE_PASSWORD_PATH: "/api/change_password",
+    RESET_PASSWORD_PATH: "/api/reset_password",
+    VERIFICATION_CODE_PATH: "/api/verification_code",
+    RECENTLY_NOTIFIER_PATH: "/api/recently",
+    USER_PATH: "/api/user",
+    PERMISSION_PATH: "/api/permission",
+    ACCESS_PATH: "/api/access",
+    ROLE_PATH: "/api/role",
+    PERSON_PATH: "/api/person",
+    ARTICLE_PATH: "/api/article",
+    CATEGORY_PATH: "/api/category",
+    CATEGORY_SOLABEST_PATH:"/api/category-solabest",
+    UPLOAD_PATH: "/api/file",
+    TAG_PATH: "/api/tag",
+    FAVORITE_PATH: "/api/favorite",
+    SEARCH_PATH: "/api/search",
+    PRODUCT_PATH: "/api/product",
+    LOG_PATH: "/api/log",
+    CHATROOM_PATH: "/api/chatroom",
+    CHAT_PATH: "/api/chat",
+    FORM_PATH: "/api/form",
+    MONITOR_PATH: "/api/monitor",
+    FORM_ITEM_PATH: "/api/formItem",
+    SOLABEST_PATH:"/api/solabest/html",
+    INSURANCE_PATH:'/api/insurance',
+
+    ACCOUNT_PATH:'/api/account',
+    GATEWAY_PATH:'/api/gateway',
+    SHOP_PATH:'/api/shop',
+
+  
+    AAERO_USERS_IN:"/api/flight/aaero/get-joined-flight",
+    AAERO_JOIN_FLIGHT:"/api/flight/aaero/join-flight",
+    AAERO_COOKIE:"/api/flight/aaero/get-cookie",
+    AAERO_CURRENCY_PATH:"/api/flight/aaero/currency",
+    AAERO_SEAT_PATH:"/api/flight/aaero/seat",
+    AAERO_MEAL_PATH:"/api/flight/aaero/meal",
+    AAERO_FARE_PATH:"/api/flight/aaero/fare",
+    AAERO_FARE_TWOWAY_PATH:"/api/flight/aaero/fare-return",
+    AAERO_BAGGAGE_PATH:"api/flight/aaero/baggage",
+    AAERO_PRICE_PATH:"api/flight/aaero/price",
+    AAERO_BOOK_PATH:"api/flight/aaero/book",
+    AAERO_BANK_PATH:"api/flight/aaero/register-bank",
+    AAERO_REGISTER_TICKET_PATH:"api/flight/aaero/register-bank",
+    AMADEUS_CURRENCY_PATH:"/api/flight/amadeus/currency",
+    AMADEUS_SEAT_PATH:"/api/flight/amadeus/seat",
+    AMADEUS_MEAL_PATH:"/api/flight/amadeus/meal",
+    AMADEUS_FARE_PATH:"/api/flight/amadeus/fare",
+
+    CONNECTOTA_CURRENCY_PATH:"/api/flight/connectota/currency",
+    CONNECTOTA_SEAT_PATH:"/api/flight/connectota/seat",
+    CONNECTOTA_MEAL_PATH:"/api/flight/connectota/meal",
+    CONNECTOTA_FARE_PATH:"/api/flight/connectota/fare",
+
+    FARANEGAR_CURRENCY_PATH:"/api/flight/faranegar/currency",
+    FARANEGAR_SEAT_PATH:"/api/flight/faranegar/seat",
+    FARANEGAR_MEAL_PATH:"/api/flight/faranegar/meal",
+    FARANEGAR_FARE_PATH:"/api/flight/faranegar/fare",
+
+    SABRE_CURRENCY_PATH:"/api/flight/sabre/currency",
+    SABRE_SEAT_PATH:"/api/flight/sabre/seat",
+    SABRE_MEAL_PATH:"/api/flight/sabre/meal",
+    SABRE_FARE_PATH:"/api/flight/sabre/fare",
+    
+    // MESSAGES:
+    ERROR_MESSAGE: 'عملیات نا موفق بود.',
+    SUCCESS_MESSAGE: 'عملیات موفقیت آمیز بود.',
+    CONFLICT_MESSAGE: 'این مشخصات قبلا ثبت شده است.',
+
+    // PARAMS:
+    COOKIE_EXPIRES: 14 // IN DAYS
+};
